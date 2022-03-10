@@ -1,1 +1,1 @@
-web: gunicorn fir.heroku_settings:WSGI_APPLICATION --log-file - --log-level debug
+web: gunicorn --bind 0.0.0.0:$PORT fir.heroku_settings:application --log-file - --log-level debug
