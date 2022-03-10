@@ -1,4 +1,4 @@
-Django==4.0.3
+Django
 gunicorn
 dj-database-url
 dj-email-url
