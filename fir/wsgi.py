@@ -9,6 +9,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fir.config.production")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fir.heroku_settings")
 
 application = get_wsgi_application()
