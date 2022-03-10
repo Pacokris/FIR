@@ -1,5 +1,4 @@
-Django
-gunicorn==19.7.1
+gunicorn
 dj-database-url
 dj-email-url
 environs
