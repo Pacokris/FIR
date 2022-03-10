@@ -1,1 +1,1 @@
-web: gunicorn fir.wsgi:application --log-file - --log-level debug
+web: gunicorn fir.heroku_settings:application --log-file - --log-level debug
