@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT fir.wsgi:application --log-file - --log-level debug
+web: gunicorn fir.wsgi --log-file - --log-level debug
